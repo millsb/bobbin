@@ -1,0 +1,35 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/bryan/projects/bobbin/src/Bobbin.Core/Bobbin.Core.csproj",
+    "projectName": "Bobbin.Core",
+    "projectPath": "/Users/bryan/projects/bobbin/src/Bobbin.Core/Bobbin.Core.csproj",
+    "outputPath": "/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0-preview1-002111-00"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "2.0.0-preview1-final"
+        }
+      },
+      "imports": [
+        "net461"
+      ]
+    }
+  }
+}

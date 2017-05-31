@@ -1,0 +1,46 @@
+﻿{
+  "version": "0.0.1",
+  "restore": {
+    "projectUniqueName": "/Users/bryan/projects/bobbin/src/Bobbin.Cli/Bobbin.Cli.csproj",
+    "projectName": "Bobbin.Cli",
+    "projectPath": "/Users/bryan/projects/bobbin/src/Bobbin.Cli/Bobbin.Cli.csproj",
+    "outputPath": "/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0-preview1-002111-00"
+        },
+        "Microsoft.Extensions.CommandLineUtils": {
+          "target": "Package",
+          "version": "1.1.1"
+        }
+      },
+      "imports": [
+        "net461"
+      ]
+    }
+  },
+  "runtimes": {
+    "win": {
+      "#import": []
+    },
+    "win-x64": {
+      "#import": []
+    },
+    "win-x86": {
+      "#import": []
+    }
+  }
+}

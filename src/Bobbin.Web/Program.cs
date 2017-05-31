@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Bobbin.Web
+namespace Bobbin.Core
 {
     public class Program
     {

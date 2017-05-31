@@ -16,6 +16,16 @@
     <None Remove="yarn.lock" />
     <Content Remove="ClientApp\**" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bobbin.Cli\Bobbin.Cli.csproj">
+      <Project>{842c6e97-f9a7-43d5-9d84-80ef045771f8}</Project>
+      <Name>Bobbin.Cli</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bobbin.Core\Bobbin.Core.csproj">
+      <Project>{cf2e43b8-0c27-4426-acc2-7ba7a2ec425b}</Project>
+      <Name>Bobbin.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
     <Exec Command="npm install" />
     <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.prod" />

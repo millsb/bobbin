@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "c1c2910967b61bf0f4d587291a03c8138daf1eb7"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Bobbin.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.0-preview1-final",
+          "NETStandard.Library": "2.0.0-preview1-25301-01"
+        },
+        "runtime": {
+          "Bobbin.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.All/2.0.0-preview1-final": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.Packaging.Tools/1.0.0-preview1-25301-01": {},
+      "NETStandard.Library/2.0.0-preview1-25301-01": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.Packaging.Tools": "1.0.0-preview1-25301-01"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bobbin.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.All/2.0.0-preview1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1PYahTyN2RLdaWbalkf/H/3yM915hXWicwBfccEb6ZyjQ0yQmLc+dhLRX4jZKMCSI/Z6YMeI3mL8YKgc92Ejw==",
+      "path": "microsoft.aspnetcore.all/2.0.0-preview1-final",
+      "hashPath": "microsoft.aspnetcore.all.2.0.0-preview1-final.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FAKbS1KM8LoWr2kk0fWpCwK8doeWx6fvSenrMbL9cJQIBMZketAizittfbaQKgQ/SU2w8ejA7ufcsB8SzTSc9A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Packaging.Tools/1.0.0-preview1-25301-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ag6G+porN+SqQEB+SSPHvWNSTWhrIu7+Xwd0kkfc9qaxu4Wlb0O1x5vSv9jPA/luEmPnrIGTXnfkfT3dIQoAOg==",
+      "path": "microsoft.packaging.tools/1.0.0-preview1-25301-01",
+      "hashPath": "microsoft.packaging.tools.1.0.0-preview1-25301-01.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0-preview1-25301-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7vIjPmYJ5nzwS+1NM/8E+QIv865U8rN1hdZlupjQhOXNfqfKQNaGr+JuLIXsOTTJUphkb16+wCnsk/IpM5VphQ==",
+      "path": "netstandard.library/2.0.0-preview1-25301-01",
+      "hashPath": "netstandard.library.2.0.0-preview1-25301-01.nupkg.sha512"
+    }
+  }
+}

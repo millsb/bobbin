@@ -1,0 +1,10 @@
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/bin/Debug/netcoreapp2.0//dotnet-bob.pdb
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/bin/Debug/netcoreapp2.0/dotnet-bob.deps.json
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/bin/Debug/netcoreapp2.0/dotnet-bob.runtimeconfig.json
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/bin/Debug/netcoreapp2.0/dotnet-bob.runtimeconfig.dev.json
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/bin/Debug/netcoreapp2.0/dotnet-bob.dll
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/Debug/netcoreapp2.0/Bobbin.Cli.csprojResolveAssemblyReference.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/Debug/netcoreapp2.0/Bobbin.Cli.csproj.CoreCompileInputs.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/Debug/netcoreapp2.0/Bobbin.Cli.AssemblyInfo.cs
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/Debug/netcoreapp2.0/dotnet-bob.dll
+/Users/bryan/projects/bobbin/src/Bobbin.Cli/obj/Debug/netcoreapp2.0/dotnet-bob.pdb

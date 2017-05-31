@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
-using Bobbin.Web.Patterns;
+using Bobbin.Core.Patterns;
+using Bobbin.Core.Render;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -13,10 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.FileProviders;
 
-using Bobbin.Web.Render;
-using Bobbin.Web.ViewLocations;
-
-namespace Bobbin.Web
+namespace Bobbin.Core
 {
     public class Startup
     {
@@ -41,14 +40,6 @@ namespace Bobbin.Web
 
             services.AddMvc();
             // Add framework services.
-            services.Configure<RazorViewEngineOptions>(options =>
-            {
-                /* options.FileProviders.Add(
-                    new PhysicalFileProvider(_hostingEnv.ContentRootPath + "/../../")
-                ); */
-                options.ViewLocationExpanders.Add(new ViewLocationExpander());
-            });
-
             services.Configure<PatternRepositoryOptions>(Configuration.GetSection("Bobbin:PatternRepository"));
 
             services.AddScoped<IViewRenderService, RazorViewRenderService>();

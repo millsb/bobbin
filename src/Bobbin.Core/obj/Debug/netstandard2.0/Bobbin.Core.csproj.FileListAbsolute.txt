@@ -1,0 +1,4 @@
+/Users/bryan/projects/bobbin/src/Bobbin.Core/bin/Debug/netstandard2.0/Bobbin.Core.deps.json
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netstandard2.0/Bobbin.Core.csprojResolveAssemblyReference.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netstandard2.0/Bobbin.Core.csproj.CoreCompileInputs.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netstandard2.0/Bobbin.Core.AssemblyInfo.cs

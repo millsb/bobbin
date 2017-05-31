@@ -1,0 +1,9 @@
+/Users/bryan/projects/bobbin/src/Bobbin.Core/bin/Debug/netcoreapp2.0//Bobbin.Core.pdb
+/Users/bryan/projects/bobbin/src/Bobbin.Core/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/bryan/projects/bobbin/src/Bobbin.Core/bin/Debug/netcoreapp2.0/Bobbin.Core.deps.json
+/Users/bryan/projects/bobbin/src/Bobbin.Core/bin/Debug/netcoreapp2.0/Bobbin.Core.dll
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netcoreapp2.0/Bobbin.Core.csprojResolveAssemblyReference.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netcoreapp2.0/Bobbin.Core.csproj.CoreCompileInputs.cache
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netcoreapp2.0/Bobbin.Core.AssemblyInfo.cs
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netcoreapp2.0/Bobbin.Core.dll
+/Users/bryan/projects/bobbin/src/Bobbin.Core/obj/Debug/netcoreapp2.0/Bobbin.Core.pdb
